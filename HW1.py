@@ -130,9 +130,15 @@ plt.show()
 x=df['age']
 num_bins=15
 n,bins,patches=plt.hist(x,num_bins,facecolor='blue',alpha=0.5)
+plt.title('Age Histogram')
+plt.xlabel("Age")
+plt.ylabel("Frequency")
 plt.show()
 
 x=df['income']
 num_bins=9
 n,bins,patches=plt.hist(x,num_bins,facecolor='blue',alpha=0.5)
+plt.title('Income Histograma')
+plt.xlabel("Income")
+plt.ylabel("Frequency")
 plt.show()
